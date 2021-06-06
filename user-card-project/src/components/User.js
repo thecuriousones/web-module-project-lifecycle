@@ -1,4 +1,5 @@
 import React from 'react';
+import Followers from './Followers';
 
 class User extends React.Component {
     render() {
@@ -108,6 +109,7 @@ class User extends React.Component {
                         </div>
                     </div>
                 </div>
+                <Followers />
             </div>
         )
     }
